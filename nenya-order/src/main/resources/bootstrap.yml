@@ -1,0 +1,22 @@
+spring:
+  #实例名称
+  application:
+    name: nenya-order
+  # nacos cloud 注册中心
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.105.219.71:8848
+        namespace: 6b3a653c-59db-40fe-935b-1f632c95ef63
+      config:
+        server-addr: 39.105.219.71:8848
+        namespace: 6b3a653c-59db-40fe-935b-1f632c95ef63
+        file-extension: yaml  # 必须修改成yaml
+        group: DEFAULT_GROUP  # 缺省即可
+        prefix: ${spring.application.name} # 缺省即可
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
