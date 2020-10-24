@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nenya-auth" />
+        <module name="nenya-common" />
+        <module name="nenya-gateway" />
+        <module name="nenya-order" />
+        <module name="nenya-payment" />
+        <module name="nenya-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nenyademo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nenya-auth" options="-parameters" />
+      <module name="nenya-common" options="-parameters" />
+      <module name="nenya-gateway" options="-parameters" />
+      <module name="nenya-order" options="-parameters" />
+      <module name="nenya-payment" options="-parameters" />
+      <module name="nenya-web" options="-parameters" />
+      <module name="nenyademo" options="-parameters" />
+    </option>
+  </component>
+</project>
