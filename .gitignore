@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/workspace.xml
+nenya-auth/src/main/java/com/nenya/auth/domain/entity/
+nenya-auth/src/main/java/com/nenya/auth/domain/mapper/
+nenya-auth/src/main/resources/mapper/
+nenya-auth/src/test/
+nenya-auth/target/
+nenya-common/src/test/
+nenya-common/target/
+nenya-gateway/src/test/
+nenya-gateway/target/
+nenya-order/src/main/java/com/nenya/order/domain/
+nenya-order/src/test/
+nenya-order/target/
+nenya-payment/src/main/java/com/nenya/payment/domain/po/
+nenya-payment/src/main/java/com/nenya/payment/domain/vo/
+nenya-payment/src/main/java/com/nenya/payment/remote/
+nenya-payment/src/main/java/com/nenya/payment/service/
+nenya-payment/src/test/
+nenya-payment/target/
+nenya-web/src/main/java/com/nenya/web/biz/
+nenya-web/src/main/java/com/nenya/web/config/
+nenya-web/src/main/java/com/nenya/web/domain/
+nenya-web/src/main/java/com/nenya/web/service/
+nenya-web/src/test/
+nenya-web/target/
