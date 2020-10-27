@@ -26,7 +26,6 @@ public class WebController {
                                      @RequestParam("channel") String channel) {
         return CommonResult.success(billId.concat(channel));
     }
-
     @GetMapping("/publicKey")
     public CommonResult<String> getPublicKey() {
         return CommonResult.success(this.publicKey);
